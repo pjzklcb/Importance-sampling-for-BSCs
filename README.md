@@ -1,4 +1,4 @@
-# Importance-sampling-for-BSC-channel
+# Importance-sampling-for-BSCs
 Matlab codes for the paper "Asymptotically Tight MLD Bounds and Minimum-Variance Importance Sampling Estimator for Efficient Performance of Linear Block Codes over BSCs"
 
 This program is used to implement the Hamming weight-based importance sampling (HW-IS) algorithm. We provide BCH, LDPC and Polar codes as the default choices.
