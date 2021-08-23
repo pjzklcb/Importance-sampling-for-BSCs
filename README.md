@@ -8,6 +8,7 @@ Please run the 'main.m' file with default settings for a try. You can change SNR
 1. The 'Utils\' folder includes some useful tools such as the decoders for LDPC code and the Polar code, where the latter one 'Utils\Polar Codes in MATLAB -v2' is developed by Harish Vangala and can be found in 'https://ecse.monash.edu/staff/eviterbo/polarcodes.html'. If you have your own encoding or decoding functions, please add them into 'Utils/'. Later, in the part 'How to add your own code?', we will show you how to call them.
 2. The 'Data\' folder provides some '.mat' files for LDPC codes, which consists of the generator matrix 'G', the parity-check matrix 'H' and the information bit index 'info_idx'. It includes some MacKay's code from 'http://www.inference.org.uk/mackay/codes/data.html'. The default 'DSC.273.17.17.mat' LDPC code is from 'http://the-art-of-ecc.com/8_Iterative/index.html'. You can add your own LDPC codes with the same format into this folder.
 3. The 'Results\' folder includes some examples of BCH, LDPC and Polar codes by implementing the program.
+4. The 'demo\' folder includes the screenshot and video for our program running with the default settings - (273,191) DSC LDPC code with BP decoder.
 
 # How to add your own code?
 By modifying the 'Utils/codeIS.m' file, you can easily achieve that. 
