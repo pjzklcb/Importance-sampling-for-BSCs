@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Pan"
   given-names: "Jinzhe"
-title: "Hamming Weight-based Importance Sampling for BSCs"
+title: "Minimum-variance importance sampling estimator of linear block codes over BSCs"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2021-08-07
